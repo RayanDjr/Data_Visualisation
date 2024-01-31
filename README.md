@@ -47,7 +47,7 @@ team_averages[['logo image', 'LAT TEAM', 'LONG TEAM']] = data.groupby('TEAM', as
 
 team_averages.to_csv('NBA_moyenne.csv', index=False)
 
-
+[Jeu de données par moyenne](NBA_moyenne.csv)
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/16637271"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
