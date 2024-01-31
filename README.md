@@ -7,7 +7,7 @@
 
 <div class="flourish-embed flourish-scatter" data-src="visualisation/16636350"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-![screen_python](https://github.com/RayanDjr/Data_Visualisation/assets/151729495/2a379be6-34fb-4b3b-b692-ccf52ed28a9e)
+![screen_python](https://github.com/RayanDjr/Data_Visualisation/assets/151729495/1f77668d-04a2-430d-85c1-47816e2e63c6)
 
 
 
