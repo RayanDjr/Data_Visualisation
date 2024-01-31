@@ -1,5 +1,10 @@
 # Les joueurs NBA saison 2022-23
 
+## Introduction
+
+A partir d'un jeu de données repertoriant les statistiques des joueurs NBA sur la saison 2022-23, je vais essayer de récuperer un maximum de data afin de pouvoir réaliser des datavisualisation.
+
+
 # D'ou proviennent les joueurs qui ont évolué en NBA durant la saison 2022-23
 
 [Historique OpenRefine](history_NBA.json)
