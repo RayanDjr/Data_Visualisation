@@ -10,6 +10,8 @@
 ![screen_python](https://github.com/RayanDjr/Data_Visualisation/assets/151729495/1f77668d-04a2-430d-85c1-47816e2e63c6)
 
 
+<div class="flourish-embed flourish-chart" data-src="visualisation/16637271"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
 
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/16636847"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
