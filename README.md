@@ -1,4 +1,4 @@
-# Les joueurs NBA saison 2022-23 : ![NBA Logo](https://logos-marques.com/wp-content/uploads/2021/02/NBA-Logo-1969.png)
+# Les joueurs NBA saison 2022-23  ![NBA Logo](https://logos-marques.com/wp-content/uploads/2021/02/NBA-Logo-1969.png)
 
 
 ## Introduction
