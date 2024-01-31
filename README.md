@@ -17,7 +17,7 @@ Avec l'aide D'OpenRefine, j'ai retravaillé ce jeu de données afin de le rendre
 
 # D'ou proviennent les joueurs qui ont évolué en NBA durant la saison 2022-23
 
-La NBA étant une ligue Américaine, elle à longtemps été composer uniquement de joueurs américains. Cependant depuis quelques années on constate une augmentation des joueurs non américain au sein de la ligue. Il peut donc être intéressant de visualiser d'ou viennent les joueurs qui ont joué en 2022-23. Pour cela j'ai créer une map à partir du lieu de naissance de chaque joueurs.
+La NBA étant une ligue Américaine, elle à longtemps été composer uniquement de joueurs américains. Cependant depuis quelques années on constate une augmentation des joueurs non américain au sein de la ligue. Il peut donc être intéressant de visualiser d'ou viennent les joueurs qui ont joué en 2022-23. Pour cela j'ai créer une map à partir du lieu de naissance de chaque joueurs. Chaque point correspond à un joueur. 
 
 <iframe title="Provenance des joueurs NBA" aria-label="Map" id="datawrapper-chart-gUGfg" src="https://datawrapper.dwcdn.net/gUGfg/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="386" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
 </script>
@@ -55,7 +55,7 @@ Voici le résultat ;
 
 # Quel est la moyenne d'age des joueurs par équipe
 
-Il est intéressant de se demander qu'elle est la moyenne d'âge par équipe en NBA
+Il est intéressant de se demander qu'elle est la moyenne d'âge par équipe en NBA. Pour ce faire, une map parait être une parfaite representation. les équipes sont rangé selon position géographique et en passant la souris sur les points on peut connaître la moyenne d'age de l'équipe. Les points sont également coloré en fonction de la moyenne d'âge
 
 <iframe title="Moyenne d'âge des joueurs NBA par équipe " aria-label="Map" id="datawrapper-chart-cOtAJ" src="https://datawrapper.dwcdn.net/cOtAJ/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="643" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
 </script>
