@@ -17,15 +17,20 @@ Avec l'aide D'OpenRefine, j'ai retravaillé ce jeu de données afin de le rendre
 
 # D'ou proviennent les joueurs qui ont évolué en NBA durant la saison 2022-23
 
+La NBA étant une ligue Américaine, elle à longtemps été composer uniquement de joueurs américains. Cependant depuis quelques années on constate une augmentation des joueurs non américain au sein de la ligue. Il peut donc être intéressant de visualiser d'ou viennent les joueurs qui ont joué en 2022-23. Pour cela j'ai créer une map à partir du lieu de naissance de chaque joueurs.
+
 <iframe title="Provenance des joueurs NBA" aria-label="Map" id="datawrapper-chart-gUGfg" src="https://datawrapper.dwcdn.net/gUGfg/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="386" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
 </script>
 
-La NBA étant une ligue Américaine, elle à longtemps été composer uniquement de joueurs américains. Cependant depuis quelques années on constate une augmentation des joueurs non américain au sein de la ligue. Il peut donc être intéressant de visualiser d'ou viennent les joueurs qui ont joué en 2022-23. Pour cela j'ai créer une map à partir du lieu de naissance de chaque joueurs.
 
 # A quels postes jouent les joueurs les meilleurs scoreurs
 
 
 <div class="flourish-embed flourish-scatter" data-src="visualisation/16636350"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+# Changement de perspective 
+Après avoir utilisé les données de chaques joueurs, il semblait intéressant de regrouper les data de tous les joueurs par équipe afin de pouvoir les comparer entre elles. 
+Pour ce faire j'ai donc réaliser un script python afin de moyenner les statistiques et de les regrouper par équipe. On récupère également le logo et les coordonnées de chaque équipe. 
 
 ```python
 import pandas as pd
@@ -42,18 +47,20 @@ team_averages[['logo image', 'LAT TEAM', 'LONG TEAM']] = data.groupby('TEAM', as
 
 team_averages.to_csv('NBA_moyenne.csv', index=False)
 
+```
+Voici le résultat ; 
+[Jeu de données par moyenne](NBA_moyenne.csv)
 
+# Quel est la moyenne d'age des joueurs par équipe
 
-# Quel est la moyenne d'age des joueurs par équipe 
 <iframe title="Moyenne d'âge des joueurs NBA par équipe " aria-label="Map" id="datawrapper-chart-cOtAJ" src="https://datawrapper.dwcdn.net/cOtAJ/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="643" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
 </script>
 
-
-
-[Jeu de données par moyenne](NBA_moyenne.csv)
+# Corrélation entre éfficacité et précision de loin
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/16637271"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
+# Qui sont les plus efficaces 
 
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/16636847"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
