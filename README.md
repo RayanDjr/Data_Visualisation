@@ -53,10 +53,17 @@ Voici le résultat ;
 
 # Quel est la moyenne d'age des joueurs par équipe
 
+Il est intéressant de se demander qu'elle est la moyenne d'âge par équipe en NBA
+
 <iframe title="Moyenne d'âge des joueurs NBA par équipe " aria-label="Map" id="datawrapper-chart-cOtAJ" src="https://datawrapper.dwcdn.net/cOtAJ/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="643" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
 </script>
 
+Il est dommage que ces moyennes soient arrondie à autant de chiffre après la virgule, cela enlève de la pertinance sur la donnée. 
+
+
 # Corrélation entre éfficacité et précision de loin
+
+Les tirs à 3 points sont les plus difficile à mettre au Basket. Intéressont nous à la corrélation entre l'efficacité et la précision à l'aide des statistiques sur le nombre moyen de tire rentré par équipe et le pourcentage moyen de tir rentré afin de voir si les équipes les plus éfficace sont aussi les plus précise  
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/16637271"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
@@ -66,5 +73,29 @@ Voici le résultat ;
 
 # Qui sont les plus efficaces 
 
+A l'aide d'une requete wikidata il m'a été possible d'afficher la photo des joueurs ayant jouer en NBA mesurant plus de 2 mètre 15. Ils sont ranger dans l'ordre décroissant, il s'agit donc d'un classement des joueurs les plus grands. 
+
+
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/16636847"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
+```SPARQL
+#defaultView:ImageGrid
+SELECT ?player ?playerLabel ?league ?leagueLabel ?img ?height ?birthdate ?age ?nationality ?nationalityLabel
+WHERE {
+  ?player wdt:P106 wd:Q3665646;
+          wdt:P118 ?team;
+          wdt:P2048 ?height;
+          wdt:P18 ?img.
+  
+  OPTIONAL { ?player wdt:P569 ?birthdate. }
+  BIND(year(now()) - year(?birthdate) AS ?age).
+  
+  OPTIONAL { ?player wdt:P27 ?nationality. }
+
+  FILTER(?team = wd:Q155223 && ?height > 215).
+  
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}
+
+ORDER BY DESC(?height)
+```
