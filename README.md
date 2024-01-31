@@ -25,6 +25,7 @@ La NBA étant une ligue Américaine, elle à longtemps été composer uniquement
 
 # A quels postes jouent les joueurs les meilleurs scoreurs
 
+Les jouers étant rangé par ordre de scoring, on peut se demander quel est la répartition par poste des joueurs dans le classement des scoreurs. Pour ce faire j'ai utilisé un graphique en sucette afin de répartir tous les joueurs selon leurs poste et leurs position au classement
 
 <div class="flourish-embed flourish-scatter" data-src="visualisation/16636350"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
