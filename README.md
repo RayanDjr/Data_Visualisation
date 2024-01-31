@@ -86,7 +86,7 @@ A l'aide d'une requete wikidata il m'a été possible d'afficher la photo des jo
 
 ```sparql
 #defaultView:ImageGrid
-SELECT ?player ?playerLabel ?league ?leagueLabel ?img ?height ?birthdate ?age ?nationality ?nationalityLabel
+SELECT ?playerLabel ?league ?imgLabel ?height ?birthdate ?age ?nationality
 WHERE {
   ?player wdt:P106 wd:Q3665646;
           wdt:P118 ?team;
