@@ -202,6 +202,10 @@ Afin de pouvoir comparer toutes les équipes dans chacune des catégorie statist
 <span style="color: blue;">Description:</span> Mesure le nombre de points concédés par un joueur pour 100 possessions.
 </details>
 
+<details>
+<summary>Source:</summary>
+<span style="font-size: small;">Glossaire créé grâce aux informations disponibles sur [Viziball](https://viziball.app/glossary/nba/fr) et [Who's The Bet](https://whosthebet.blogspot.com/2015/08/la-nba-pour-les-nuls-les-statistiques.html).</span>
+</details>
 
 # Ordre de grandeur 
 
