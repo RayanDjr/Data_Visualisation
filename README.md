@@ -77,77 +77,156 @@ Afin de pouvoir comparer toutes les équipes dans chacune des catégorie statist
 
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/16636847"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-# Glossaire
-
+# Glossaire (NBA Stats Avancées)
 
 <details>
-<summary>PTS</summary>
-Points
+<summary>GP (Games Played)</summary>
+Description
+Le nombre total de matchs auxquels le joueur a participé au cours de la saison.
 </details>
 
 <details>
-<summary>FGA</summary>
-Tir raté
+<summary>MPG (Minutes Per Game)</summary>
+Description
+La moyenne de minutes jouées par match par le joueur.
 </details>
 
 <details>
-<summary>FTM</summary>
-Lancer Franc marqué
+<summary>USG% (Usage Percentage)</summary>
+Description
+Le pourcentage de possessions se terminant dans les mains du joueur lorsque il est sur le terrain.
 </details>
 
 <details>
-<summary>FTA</summary>
-Lancer Franc Raté
+<summary>TO% (Turnover Percentage)</summary>
+Description
+Le pourcentage de possessions du joueur se terminant par une perte de balle.
 </details>
 
 <details>
-<summary>ORB</summary>
-Rebond Offensif
+<summary>FTA (Free Throws Attempted)</summary>
+Description
+Le nombre total de lancers francs tentés par le joueur.
 </details>
 
 <details>
-<summary>DRB</summary>
-Rebond défensif
+<summary>FT% (Free Throw Percentage)</summary>
+Description
+Le pourcentage de réussite des lancers francs du joueur.
 </details>
 
 <details>
-<summary>STL</summary>
-Interception
+<summary>2PA (2-Point Attempts)</summary>
+Description
+Le nombre total de tentatives de paniers à deux points par le joueur.
 </details>
 
 <details>
-<summary>BLK</summary>
-Contre
+<summary>2P% (2-Point Percentage)</summary>
+Description
+Le pourcentage de réussite des tentatives de paniers à deux points du joueur.
 </details>
 
 <details>
-<summary>PF</summary>
-Faute
+<summary>3PA (3-Point Attempts)</summary>
+Description
+Le nombre total de tentatives de paniers à trois points par le joueur.
 </details>
 
 <details>
-<summary>TOV</summary>
-Perte de Balle
+<summary>3P% (3-Point Percentage)</summary>
+Description
+Le pourcentage de réussite des tentatives de paniers à trois points du joueur.
 </details>
 
 <details>
-<summary>GP</summary>
-Match jouée
+<summary>eFG% (Effective Field Goal Percentage)</summary>
+Description
+Une statistique ajustant le pourcentage de réussite au tir pour tenir compte de la valeur accrue des tirs à trois points.
+Formule
+((FGM + (0.5 * 3PM)) / FGA)
 </details>
 
 <details>
-<summary>Game Score (GMSC)</summary>
-Une statistique pour évaluer la performance d'un joueur sur un match. Calculé par PTS + 0.4 * FGM – 0.7 * FGA – 0.4 * (FTA – FTM) + 0.7 * ORB + 0.3 * DRB + STL + 0.7 * AST + 0.7 * BLK – 0.4 * PF – TO. Une performance de 10.00 est moyenne et à l'inverse, une performance à 40.00 et plus est incroyable !
+<summary>TS% (True Shooting Percentage)</summary>
+Description
+Une statistique cumulant les différents types de tirs qu’un joueur peut prendre (2 points, 3 points, lancers francs) pour déterminer la qualité globale du tir.
+Formule
+(PTS / (2 * (FGA + 0.44 * FTA)))
 </details>
 
 <details>
-<summary>True Shooting Percentage (TS%)</summary>
-Le pourcentage incluant l'adresse aux tirs et les lancers-francs. Calculé par Points DIVISE PAR 2(FGA + 0.44 x FTA).
+<summary>PPG (Points Per Game)</summary>
+Description
+La moyenne de points marqués par match par le joueur.
 </details>
 
 <details>
-<summary>Usage Percentage (USG%)</summary>
-Le nombre de ballons touchés par un joueur lorsqu'il est sur le terrain. Calculé par 100 * ((FGA + 0.44 * FTA + TO) * (Tm MP / 5)) / (MP * (Tm FGA + 0.44 * Tm FTA + Tm TOV).
+<summary>RPG (Rebounds Per Game)</summary>
+Description
+La moyenne de rebonds par match par le joueur.
+</details>
+
+<details>
+<summary>APG (Assists Per Game)</summary>
+Description
+La moyenne de passes décisives par match par le joueur.
+</details>
+
+<details>
+<summary>SPG (Steals Per Game)</summary>
+Description
+La moyenne d'interceptions par match par le joueur.
+</details>
+
+<details>
+<summary>BPG (Blocks Per Game)</summary>
+Description
+La moyenne de contres par match par le joueur.
+</details>
+
+<details>
+<summary>TPG (Turnovers Per Game)</summary>
+Description
+La moyenne de pertes de balle par match par le joueur.
+</details>
+
+<details>
+<summary>P+R (Points + Rebounds)</summary>
+Description
+La somme des points et des rebonds du joueur par match.
+</details>
+
+<details>
+<summary>P+A (Points + Assists)</summary>
+Description
+La somme des points et des passes décisives du joueur par match.
+</details>
+
+<details>
+<summary>P+R+A (Points + Rebounds + Assists)</summary>
+Description
+La somme des points, des rebonds et des passes décisives du joueur par match.
+</details>
+
+<details>
+<summary>VI (Versatility Index)</summary>
+Description
+Un indice mesurant la polyvalence d'un joueur en combinant points, rebonds et passes décisives.
+Formule
+(P+R+A) / GP
+</details>
+
+<details>
+<summary>ORtg (Offensive Rating)</summary>
+Description
+Mesure le nombre de points produits par un joueur pour 100 possessions.
+</details>
+
+<details>
+<summary>DRtg (Defensive Rating)</summary>
+Description
+Mesure le nombre de points concédés par un joueur pour 100 possessions.
 </details>
 
 # Ordre de grandeur 
