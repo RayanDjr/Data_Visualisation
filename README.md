@@ -6,7 +6,11 @@ A partir d'un jeu de données repertoriant les statistiques des joueurs NBA sur 
 
 [jeu de données initial](Stats_NBA.csv)
 
+Avec l'aide D'OpenRefine, j'ai retravaillé ce jeu de données afin de le rendre le plus précis possible et de récuperer de la data pertinante qui permettra de créer des visualisations. Le plus gros du travail à été de récuperer le l'identifiant wikidata de chaque joueur afin de l'associer à son nom. Une fois cela effectué, j'ai pu récuperer un grand nombre d'information via des réconciliations comme par exemple le lieu de naissance de chaque joueurs puis ensuite les coordonnées géographique de chaque lieu de naissance. 
+
 [Historique OpenRefine](history_NBA.json)
+
+
 
 [Jeu de données final](NBA.csv)
 
