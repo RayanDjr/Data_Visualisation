@@ -82,7 +82,7 @@ A l'aide d'une requete wikidata il m'a été possible d'afficher la photo des jo
 
 ### requête SPARQL
 
-```SPARQL
+```sparql
 #defaultView:ImageGrid
 SELECT ?player ?playerLabel ?league ?leagueLabel ?img ?height ?birthdate ?age ?nationality ?nationalityLabel
 WHERE {
