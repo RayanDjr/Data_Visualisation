@@ -27,11 +27,6 @@ La NBA étant une ligue Américaine, elle à longtemps été composer uniquement
 
 <div class="flourish-embed flourish-scatter" data-src="visualisation/16636350"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-
-# Quel est la moyenne d'age des joueurs par équipe 
-<iframe title="Moyenne d'âge des joueurs NBA par équipe " aria-label="Map" id="datawrapper-chart-cOtAJ" src="https://datawrapper.dwcdn.net/cOtAJ/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="645" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
-</script>
-
 ```python
 import pandas as pd
 
@@ -46,6 +41,14 @@ team_averages = selected_data.groupby('TEAM', as_index=False).agg({**{'TEAM': 'f
 team_averages[['logo image', 'LAT TEAM', 'LONG TEAM']] = data.groupby('TEAM', as_index=False).agg({'logo image': 'first', 'LAT TEAM': 'first', 'LONG TEAM': 'first'})[['logo image', 'LAT TEAM', 'LONG TEAM']]
 
 team_averages.to_csv('NBA_moyenne.csv', index=False)
+
+
+
+# Quel est la moyenne d'age des joueurs par équipe 
+<iframe title="Moyenne d'âge des joueurs NBA par équipe " aria-label="Map" id="datawrapper-chart-cOtAJ" src="https://datawrapper.dwcdn.net/cOtAJ/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="643" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+</script>
+
+
 
 [Jeu de données par moyenne](NBA_moyenne.csv)
 
