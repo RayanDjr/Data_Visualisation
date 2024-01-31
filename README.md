@@ -1,4 +1,5 @@
-# Les joueurs NBA saison 2022-23
+# Les joueurs NBA saison 2022-23 : ![NBA Logo](https://logos-marques.com/wp-content/uploads/2021/02/NBA-Logo-1969.png)
+
 
 ## Introduction
 
@@ -22,6 +23,7 @@ La NBA étant une ligue Américaine, elle à longtemps été composer uniquement
 <iframe title="Provenance des joueurs NBA" aria-label="Map" id="datawrapper-chart-gUGfg" src="https://datawrapper.dwcdn.net/gUGfg/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="386" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
 </script>
 
+On constate que la très grande majorité des joueurs NBA sont né aux Etats-Unis, nottament sur la côte est. Pour ce qui est des joueurs non américains, la plus grande majorité d'entre eux viennent d'Europe Central. Cela peut s'expliquer par la grande popularité du Basket dans cette région. 
 
 # A quels postes jouent les joueurs les meilleurs scoreurs
 
@@ -76,6 +78,8 @@ Les tirs à 3 points sont les plus difficile à mettre au Basket. Intéressont n
 Afin de pouvoir comparer toutes les équipes dans chacune des catégorie statistiques de la league, voici un shéma hiérarchique qu'il est possible de filtré selon la statistique désiré. 
 
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/16636847"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+Voici un glossaire permettant de pouvoir comprendre à quoi correspond chacune des statistiques disponible. 
 
 # Glossaire (NBA Stats Avancées)
 
@@ -204,7 +208,7 @@ Afin de pouvoir comparer toutes les équipes dans chacune des catégorie statist
 
 <details>
 <summary>Source:</summary>
-<span style="font-size: small;">Glossaire créé grâce aux informations disponibles sur [Viziball](https://viziball.app/glossary/nba/fr) et [Who's The Bet](https://whosthebet.blogspot.com/2015/08/la-nba-pour-les-nuls-les-statistiques.html).</span>
+<span style="font-size: small;">ce glossaire à été réalisé grâce aux informations disponibles sur [Viziball](https://viziball.app/glossary/nba/fr) et [Who's The Bet](https://whosthebet.blogspot.com/2015/08/la-nba-pour-les-nuls-les-statistiques.html).</span>
 </details>
 
 # Ordre de grandeur 
@@ -212,6 +216,8 @@ Afin de pouvoir comparer toutes les équipes dans chacune des catégorie statist
 A l'aide d'une requete wikidata il m'a été possible d'afficher la photo des joueurs ayant jouer en NBA mesurant plus de 2 mètre 15. Ils sont ranger dans l'ordre décroissant, il s'agit donc d'un classement des joueurs les plus grands. 
 
 <iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3AImageGrid%0ASELECT%20DISTINCT%20%3FplayerLabel%20%3FleagueLabel%20%3Fheight%20%3Fbirthdate%20%3FimgLabel%20%3Fage%20%3FnationalityLabel%0AWHERE%20%7B%0A%20%20%3Fplayer%20wdt%3AP106%20wd%3AQ3665646%3B%0A%20%20%20%20%20%20%20%20%20%20wdt%3AP118%20%3Fleague%3B%0A%20%20%20%20%20%20%20%20%20%20wdt%3AP2048%20%3Fheight%3B%0A%20%20%20%20%20%20%20%20%20%20wdt%3AP18%20%3Fimg%3B%0A%20%20%20%20%20%20%20%20%20%20wdt%3AP27%20%3Fnationality%3B%0A%20%20%20%20%20%20%20%20%20%20wdt%3AP569%20%3Fbirthdate.%20%0A%20%20%0A%20%20BIND(year(now())%20-%20year(%3Fbirthdate)%20AS%20%3Fage).%0A%20%0A%20%20FILTER(%3Fleague%20%3D%20wd%3AQ155223%20%26%26%20%3Fheight%20%3E%20215).%0A%20%20%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%7D%0A%0AORDER%20BY%20DESC(%3Fheight)" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+
+Certains joueurs ayant plusieurs nationalité appraraissent 2 fois. 
 
 ### requête SPARQL
 
