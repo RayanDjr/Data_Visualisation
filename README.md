@@ -85,156 +85,126 @@ Voici un glossaire permettant de pouvoir comprendre à quoi correspond chacune d
 
 <details>
 <summary style="font-weight: bold;">GP (Games Played)</summary>
-<span style="color: blue;">Description:</span> Le nombre total de matchs auxquels le joueur a participé au cours de la saison.
-
+<span style="color: blue;">Description:</span> <span style="color: blue;">Le nombre total de matchs auxquels le joueur a participé au cours de la saison.</span><br>
 </details>
 
 <details>
 <summary style="font-weight: bold;">MPG (Minutes Per Game)</summary>
-<span style="color: blue;">Description:</span> La moyenne de minutes jouées par match par le joueur.
-
+<span style="color: blue;">Description:</span> <span style="color: blue;">La moyenne de minutes jouées par match par le joueur.</span><br>
 </details>
 
 <details>
 <summary style="font-weight: bold;">USG% (Usage Percentage)</summary>
-<span style="color: blue;">Description:</span> Le pourcentage de possessions se terminant dans les mains du joueur lorsque il est sur le terrain.
-
+<span style="color: blue;">Description:</span> <span style="color: blue;">Le pourcentage de possessions se terminant dans les mains du joueur lorsque il est sur le terrain.</span><br>
 </details>
 
 <details>
 <summary style="font-weight: bold;">TO% (Turnover Percentage)</summary>
-<span style="color: blue;">Description:</span> Le pourcentage de possessions du joueur se terminant par une perte de balle.
-
+<span style="color: blue;">Description:</span> <span style="color: blue;">Le pourcentage de possessions du joueur se terminant par une perte de balle.</span><br>
 </details>
 
 <details>
 <summary style="font-weight: bold;">FTA (Free Throws Attempted)</summary>
-<span style="color: blue;">Description:</span> Le nombre total de lancers francs tentés par le joueur.
-
+<span style="color: blue;">Description:</span> <span style="color: blue;">Le nombre total de lancers francs tentés par le joueur.</span><br>
 </details>
 
 <details>
 <summary style="font-weight: bold;">FT% (Free Throw Percentage)</summary>
-<span style="color: blue;">Description:</span> Le pourcentage de réussite des lancers francs du joueur.
-
+<span style="color: blue;">Description:</span> <span style="color: blue;">Le pourcentage de réussite des lancers francs du joueur.</span><br>
 </details>
 
 <details>
 <summary style="font-weight: bold;">2PA (2-Point Attempts)</summary>
-<span style="color: blue;">Description:</span> Le nombre total de tentatives de paniers à deux points par le joueur.
-
+<span style="color: blue;">Description:</span> <span style="color: blue;">Le nombre total de tentatives de paniers à deux points par le joueur.</span><br>
 </details>
 
 <details>
 <summary style="font-weight: bold;">2P% (2-Point Percentage)</summary>
-<span style="color: blue;">Description:</span> Le pourcentage de réussite des tentatives de paniers à deux points du joueur.
-
+<span style="color: blue;">Description:</span> <span style="color: blue;">Le pourcentage de réussite des tentatives de paniers à deux points du joueur.</span><br>
 </details>
 
 <details>
 <summary style="font-weight: bold;">3PA (3-Point Attempts)</summary>
-<span style="color: blue;">Description:</span> Le nombre total de tentatives de paniers à trois points par le joueur.
-
+<span style="color: blue;">Description:</span> <span style="color: blue;">Le nombre total de tentatives de paniers à trois points par le joueur.</span><br>
 </details>
 
 <details>
 <summary style="font-weight: bold;">3P% (3-Point Percentage)</summary>
-<span style="color: blue;">Description:</span> Le pourcentage de réussite des tentatives de paniers à trois points du joueur.
-
+<span style="color: blue;">Description:</span> <span style="color: blue;">Le pourcentage de réussite des tentatives de paniers à trois points du joueur.</span><br>
 </details>
 
 <details>
 <summary style="font-weight: bold;">eFG% (Effective Field Goal Percentage)</summary>
-<span style="color: blue;">Description:</span> Une statistique ajustant le pourcentage de réussite au tir pour tenir compte de la valeur accrue des tirs à trois points.
-<span style="color: green;">Formule:</span> ((FGM + (0.5 * 3PM)) / FGA)
-
+<span style="color: blue;">Description:</span> <span style="color: blue;">Une statistique ajustant le pourcentage de réussite au tir pour tenir compte de la valeur accrue des tirs à trois points.</span><br>
+<span style="color: green;">Formule:</span> <span style="color: green;">((FGM + (0.5 * 3PM)) / FGA)</span><br>
 </details>
 
 <details>
 <summary style="font-weight: bold;">TS% (True Shooting Percentage)</summary>
-<span style="color: blue;">Description:</span> Une statistique cumulant les différents types de tirs qu’un joueur peut prendre (2 points, 3 points, lancers francs) pour déterminer la qualité globale du tir.
-<span style="color: green;">Formule:</span> (PTS / (2 * (FGA + 0.44 * FTA)))
-
+<span style="color: blue;">Description:</span> <span style="color: blue;">Une statistique cumulant les différents types de tirs qu’un joueur peut prendre (2 points, 3 points, lancers francs) pour déterminer la qualité globale du tir.</span><br>
+<span style="color: green;">Formule:</span> <span style="color: green;">(PTS / (2 * (FGA + 0.44 * FTA)))</span><br>
 </details>
 
 <details>
 <summary style="font-weight: bold;">PPG (Points Per Game)</summary>
-<span style="color: blue;">Description:</span> La moyenne de points marqués par match par le joueur.
-
+<span style="color: blue;">Description:</span> <span style="color: blue;">La moyenne de points marqués par match par le joueur.</span><br>
 </details>
 
 <details>
 <summary style="font-weight: bold;">RPG (Rebounds Per Game)</summary>
-<span style="color: blue;">Description:</span> La moyenne de rebonds par match par le joueur.
-
+<span style="color: blue;">Description:</span> <span style="color: blue;">La moyenne de rebonds par match par le joueur.</span><br>
 </details>
 
 <details>
 <summary style="font-weight: bold;">APG (Assists Per Game)</summary>
-<span style="color: blue;">Description:</span> La moyenne de passes décisives par match par le joueur.
-
+<span style="color: blue;">Description:</span> <span style="color: blue;">La moyenne de passes décisives par match par le joueur.</span><br>
 </details>
 
 <details>
 <summary style="font-weight: bold;">SPG (Steals Per Game)</summary>
-<span style="color: blue;">Description:</span> La moyenne d'interceptions par match par le joueur.
-
+<span style="color: blue;">Description:</span> <span style="color: blue;">La moyenne d'interceptions par match par le joueur.</span><br>
 </details>
 
 <details>
 <summary style="font-weight: bold;">BPG (Blocks Per Game)</summary>
-<span style="color: blue;">Description:</span> La moyenne de contres par match par le joueur.
-
+<span style="color: blue;">Description:</span> <span style="color: blue;">La moyenne de contres par match par le joueur.</span><br>
 </details>
 
 <details>
 <summary style="font-weight: bold;">TPG (Turnovers Per Game)</summary>
-<span style="color: blue;">Description:</span> La moyenne de pertes de balle par match par le joueur.
-
+<span style="color: blue;">Description:</span> <span style="color: blue;">La moyenne de pertes de balle par match par le joueur.</span><br>
 </details>
 
 <details>
 <summary style="font-weight: bold;">P+R (Points + Rebounds)</summary>
-<span style="color: blue;">Description:</span> La somme des points et des rebonds du joueur par match.
-
+<span style="color: blue;">Description:</span> <span style="color: blue;">La somme des points et des rebonds du joueur par match.</span><br>
 </details>
 
 <details>
 <summary style="font-weight: bold;">P+A (Points + Assists)</summary>
-<span style="color: blue;">Description:</span> La somme des points et des passes décisives du joueur par match.
-
+<span style="color: blue;">Description:</span> <span style="color: blue;">La somme des points et des passes décisives du joueur par match.</span><br>
 </details>
 
 <details>
 <summary style="font-weight: bold;">P+R+A (Points + Rebounds + Assists)</summary>
-<span style="color: blue;">Description:</span> La somme des points, des rebonds et des passes décisives du joueur par match.
-
+<span style="color: blue;">Description:</span> <span style="color: blue;">La somme des points, des rebonds et des passes décisives du joueur par match.</span><br>
 </details>
 
 <details>
 <summary style="font-weight: bold;">VI (Versatility Index)</summary>
-<span style="color: blue;">Description:</span> Un indice mesurant la polyvalence d'un joueur en combinant points, rebonds et passes décisives.
-<span style="color: green;">Formule:</span> (P+R+A) / GP
-
+<span style="color: blue;">Description:</span> <span style="color: blue;">Un indice mesurant la polyvalence d'un joueur en combinant points, rebonds et passes décisives.</span><br>
+<span style="color: green;">Formule:</span> <span style="color: green;">(P+R+A) / GP</span><br>
 </details>
 
 <details>
 <summary style="font-weight: bold;">ORtg (Offensive Rating)</summary>
-<span style="color: blue;">Description:</span> Mesure le nombre de points produits par un joueur pour 100 possessions.
-
+<span style="color: blue;">Description:</span> <span style="color: blue;">Mesure le nombre de points produits par un joueur pour 100 possessions.</span><br>
 </details>
 
 <details>
 <summary style="font-weight: bold;">DRtg (Defensive Rating)</summary>
-<span style="color: blue;">Description:</span> Mesure le nombre de points concédés par un joueur pour 100 possessions.
-
+<span style="color: blue;">Description:</span> <span style="color: blue;">Mesure le nombre de points concédés par un joueur pour 100 possessions.</span><br>
 </details>
-
-<details>
-<summary style="font-weight: bold;">Annotations</summary>
-<span style="font-size: small;">Glossaire réalisé grâce à Viziball (https://viziball.app/glossary/nba/fr) et Who's the Bet (https://whosthebet.blogspot.com/2015/08/la-nba-pour-les-nuls-les-statistiques.html).</span>
-</details>
-
 
 <details>
 <summary>Source:</summary>
