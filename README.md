@@ -70,11 +70,33 @@ Les tirs à 3 points sont les plus difficile à mettre au Basket. Intéressont n
 <div class="flourish-embed flourish-chart" data-src="visualisation/16637271"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 
+
 # Qui sont les plus efficaces 
 
 Afin de pouvoir comparer toutes les équipes dans chacune des catégorie statistiques de la league, voici un shéma hiérarchique qu'il est possible de filtré selon la statistique désiré. 
 
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/16636847"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+# Glossaire
+
+- **PTS** = Points
+- **FGM** = Tir marqué
+- **FGA** = Tir raté
+- **FTM** = Lancer Franc marqué
+- **FTA** = Lancer Franc Raté
+- **ORB** = Rebond Offensif
+- **DRB** = Rebond défensif
+- **STL** = Interception
+- **BLK** = Contre
+- **PF** = Faute
+- **TOV** = Perte de Balle
+- **MP** = Minute jouée
+- **Gm??** = Total du match sur ??
+- **Tm??** = Total de l'équipe sur ??
+- **Game Score (GMSC)**: Une statistique pour évaluer la performance d'un joueur sur un match. Calculé par PTS + 0.4 * FGM – 0.7 * FGA – 0.4 * (FTA – FTM) + 0.7 * ORB + 0.3 * DRB + STL + 0.7 * AST + 0.7 * BLK – 0.4 * PF – TO. Une performance de 10.00 est moyenne et à l'inverse, une performance à 40.00 et plus est incroyable !
+- **PIE% (Estimation d'impact du joueur sur un terrain pour un match)**: Un pourcentage pour juger le pourcentage d'actions positives pendant un match pour un joueur en particulier. Calculé par (PTS + FGM + FTM – FGA – FTA + DREB + (0.5 * OREB) + AST + STL + (0.5 * BLK) – PF – TO) DIVISE PAR (GmPTS + GmFGM + GmFTM – GmFGA – GmFTA + GmDREB + (0.5 * GmOREB) + GmAST + GmSTL + (0.5 * GmBLK) – GmPF – GmTO).
+- **True Shooting Percentage (TS%)**: Le pourcentage incluant l'adresse aux tirs et les lancers-francs. Calculé par Points DIVISE PAR 2(FGA + 0.44 x FTA).
+- **Usage Percentage (USG%)**: Le nombre de ballons touchés par un joueur lorsqu'il est sur le terrain. Calculé par 100 * ((FGA + 0.44 * FTA + TO) * (Tm MP / 5)) / (MP * (Tm FGA + 0.44 * Tm FTA + Tm TOV))
 
 # Ordre de grandeur 
 
