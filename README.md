@@ -79,24 +79,76 @@ Afin de pouvoir comparer toutes les équipes dans chacune des catégorie statist
 
 # Glossaire
 
-- **PTS** = Points
-- **FGM** = Tir marqué
-- **FGA** = Tir raté
-- **FTM** = Lancer Franc marqué
-- **FTA** = Lancer Franc Raté
-- **ORB** = Rebond Offensif
-- **DRB** = Rebond défensif
-- **STL** = Interception
-- **BLK** = Contre
-- **PF** = Faute
-- **TOV** = Perte de Balle
-- **MP** = Minute jouée
-- **Gm??** = Total du match sur ??
-- **Tm??** = Total de l'équipe sur ??
-- **Game Score (GMSC)**: Une statistique pour évaluer la performance d'un joueur sur un match. Calculé par PTS + 0.4 * FGM – 0.7 * FGA – 0.4 * (FTA – FTM) + 0.7 * ORB + 0.3 * DRB + STL + 0.7 * AST + 0.7 * BLK – 0.4 * PF – TO. Une performance de 10.00 est moyenne et à l'inverse, une performance à 40.00 et plus est incroyable !
-- **PIE% (Estimation d'impact du joueur sur un terrain pour un match)**: Un pourcentage pour juger le pourcentage d'actions positives pendant un match pour un joueur en particulier. Calculé par (PTS + FGM + FTM – FGA – FTA + DREB + (0.5 * OREB) + AST + STL + (0.5 * BLK) – PF – TO) DIVISE PAR (GmPTS + GmFGM + GmFTM – GmFGA – GmFTA + GmDREB + (0.5 * GmOREB) + GmAST + GmSTL + (0.5 * GmBLK) – GmPF – GmTO).
-- **True Shooting Percentage (TS%)**: Le pourcentage incluant l'adresse aux tirs et les lancers-francs. Calculé par Points DIVISE PAR 2(FGA + 0.44 x FTA).
-- **Usage Percentage (USG%)**: Le nombre de ballons touchés par un joueur lorsqu'il est sur le terrain. Calculé par 100 * ((FGA + 0.44 * FTA + TO) * (Tm MP / 5)) / (MP * (Tm FGA + 0.44 * Tm FTA + Tm TOV))
+
+<details>
+<summary>PTS</summary>
+Points
+</details>
+
+<details>
+<summary>FGA</summary>
+Tir raté
+</details>
+
+<details>
+<summary>FTM</summary>
+Lancer Franc marqué
+</details>
+
+<details>
+<summary>FTA</summary>
+Lancer Franc Raté
+</details>
+
+<details>
+<summary>ORB</summary>
+Rebond Offensif
+</details>
+
+<details>
+<summary>DRB</summary>
+Rebond défensif
+</details>
+
+<details>
+<summary>STL</summary>
+Interception
+</details>
+
+<details>
+<summary>BLK</summary>
+Contre
+</details>
+
+<details>
+<summary>PF</summary>
+Faute
+</details>
+
+<details>
+<summary>TOV</summary>
+Perte de Balle
+</details>
+
+<details>
+<summary>GP</summary>
+Match jouée
+</details>
+
+<details>
+<summary>Game Score (GMSC)</summary>
+Une statistique pour évaluer la performance d'un joueur sur un match. Calculé par PTS + 0.4 * FGM – 0.7 * FGA – 0.4 * (FTA – FTM) + 0.7 * ORB + 0.3 * DRB + STL + 0.7 * AST + 0.7 * BLK – 0.4 * PF – TO. Une performance de 10.00 est moyenne et à l'inverse, une performance à 40.00 et plus est incroyable !
+</details>
+
+<details>
+<summary>True Shooting Percentage (TS%)</summary>
+Le pourcentage incluant l'adresse aux tirs et les lancers-francs. Calculé par Points DIVISE PAR 2(FGA + 0.44 x FTA).
+</details>
+
+<details>
+<summary>Usage Percentage (USG%)</summary>
+Le nombre de ballons touchés par un joueur lorsqu'il est sur le terrain. Calculé par 100 * ((FGA + 0.44 * FTA + TO) * (Tm MP / 5)) / (MP * (Tm FGA + 0.44 * Tm FTA + Tm TOV).
+</details>
 
 # Ordre de grandeur 
 
