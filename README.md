@@ -67,9 +67,6 @@ Les tirs à 3 points sont les plus difficile à mettre au Basket. Intéressont n
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/16637271"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-# Ordre de grandeur 
-
-<iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3AImageGrid%0ASELECT%20%3Fplayer%20%3FplayerLabel%20%3Fleague%20%3FleagueLabel%20%3Fimg%20%3Fheight%20%3Fbirthdate%20%3Fage%20%3Fnationality%20%3FnationalityLabel%0AWHERE%20%7B%0A%20%20%3Fplayer%20wdt%3AP106%20wd%3AQ3665646%3B%0A%20%20%20%20%20%20%20%20%20%20wdt%3AP118%20%3Fteam%3B%0A%20%20%20%20%20%20%20%20%20%20wdt%3AP2048%20%3Fheight%3B%0A%20%20%20%20%20%20%20%20%20%20wdt%3AP18%20%3Fimg.%0A%20%20%0A%20%20OPTIONAL%20%7B%20%3Fplayer%20wdt%3AP569%20%3Fbirthdate.%20%7D%0A%20%20BIND(year(now())%20-%20year(%3Fbirthdate)%20AS%20%3Fage).%0A%20%20%0A%20%20OPTIONAL%20%7B%20%3Fplayer%20wdt%3AP27%20%3Fnationality.%20%7D%0A%0A%20%20FILTER(%3Fteam%20%3D%20wd%3AQ155223%20%26%26%20%3Fheight%20%3E%20215).%0A%20%20%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%7D%0A%0AORDER%20BY%20DESC(%3Fheight)%0A%0A%0A%0A" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
 
 # Qui sont les plus efficaces 
 
@@ -77,6 +74,11 @@ A l'aide d'une requete wikidata il m'a été possible d'afficher la photo des jo
 
 
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/16636847"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+# Ordre de grandeur 
+
+<iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3AImageGrid%0ASELECT%20%3Fplayer%20%3FplayerLabel%20%3Fleague%20%3FleagueLabel%20%3Fimg%20%3Fheight%20%3Fbirthdate%20%3Fage%20%3Fnationality%20%3FnationalityLabel%0AWHERE%20%7B%0A%20%20%3Fplayer%20wdt%3AP106%20wd%3AQ3665646%3B%0A%20%20%20%20%20%20%20%20%20%20wdt%3AP118%20%3Fteam%3B%0A%20%20%20%20%20%20%20%20%20%20wdt%3AP2048%20%3Fheight%3B%0A%20%20%20%20%20%20%20%20%20%20wdt%3AP18%20%3Fimg.%0A%20%20%0A%20%20OPTIONAL%20%7B%20%3Fplayer%20wdt%3AP569%20%3Fbirthdate.%20%7D%0A%20%20BIND(year(now())%20-%20year(%3Fbirthdate)%20AS%20%3Fage).%0A%20%20%0A%20%20OPTIONAL%20%7B%20%3Fplayer%20wdt%3AP27%20%3Fnationality.%20%7D%0A%0A%20%20FILTER(%3Fteam%20%3D%20wd%3AQ155223%20%26%26%20%3Fheight%20%3E%20215).%0A%20%20%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%7D%0A%0AORDER%20BY%20DESC(%3Fheight)%0A%0A%0A%0A" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+
 
 ```SPARQL
 #defaultView:ImageGrid
