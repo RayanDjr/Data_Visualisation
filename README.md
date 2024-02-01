@@ -75,7 +75,7 @@ Les tirs à 3 points sont les plus difficile à mettre au Basket. Intéressont n
 
 # Qui sont les plus efficaces 
 
-Afin de pouvoir comparer toutes les équipes dans chacune des catégorie statistiques de la league, voici un shéma hiérarchique qu'il est possible de filtré selon la statistique désiré. 
+Afin de pouvoir comparer toutes les équipes dans chacune des catégorie statistiques de la league, voici un shéma hiérarchique qu'il est possible de filtré selon la statistique désiré. Les statistiques utilisés ont été réalisé en faisant la moyenne des statistiques individuelles de chaques joueurs par équipe. 
 
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/16636847"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
@@ -85,12 +85,12 @@ Voici un glossaire permettant de pouvoir comprendre à quoi correspond chacune d
 
 <details>
 <summary style="font-weight: bold;">GP (Games Played)</summary>
-<span style="color: blue;">Description:</span> <span style="color: blue;">Le nombre total de matchs auxquels le joueur a participé au cours de la saison.</span><br>
+<span style="color: blue;">Description:</span> <span style="color: blue;">Le nombre total de matchs auxquels les joueurs ont participé au cours de la saison.</span><br>
 </details>
 
 <details>
 <summary style="font-weight: bold;">MPG (Minutes Per Game)</summary>
-<span style="color: blue;">Description:</span> <span style="color: blue;">La moyenne de minutes jouées par match par le joueur.</span><br>
+<span style="color: blue;">Description:</span> <span style="color: blue;">La moyenne de minutes jouées par match par joueur.</span><br>
 </details>
 
 <details>
@@ -147,32 +147,32 @@ Voici un glossaire permettant de pouvoir comprendre à quoi correspond chacune d
 
 <details>
 <summary style="font-weight: bold;">PPG (Points Per Game)</summary>
-<span style="color: blue;">Description:</span> <span style="color: blue;">La moyenne de points marqués par match par le joueur.</span><br>
+<span style="color: blue;">Description:</span> <span style="color: blue;">La moyenne de points marqués par match du joueur.</span><br>
 </details>
 
 <details>
 <summary style="font-weight: bold;">RPG (Rebounds Per Game)</summary>
-<span style="color: blue;">Description:</span> <span style="color: blue;">La moyenne de rebonds par match par le joueur.</span><br>
+<span style="color: blue;">Description:</span> <span style="color: blue;">La moyenne de rebonds par match du joueur.</span><br>
 </details>
 
 <details>
 <summary style="font-weight: bold;">APG (Assists Per Game)</summary>
-<span style="color: blue;">Description:</span> <span style="color: blue;">La moyenne de passes décisives par match par le joueur.</span><br>
+<span style="color: blue;">Description:</span> <span style="color: blue;">La moyenne de passes décisives par match du joueur.</span><br>
 </details>
 
 <details>
 <summary style="font-weight: bold;">SPG (Steals Per Game)</summary>
-<span style="color: blue;">Description:</span> <span style="color: blue;">La moyenne d'interceptions par match par le joueur.</span><br>
+<span style="color: blue;">Description:</span> <span style="color: blue;">La moyenne d'interceptions par match du joueur.</span><br>
 </details>
 
 <details>
 <summary style="font-weight: bold;">BPG (Blocks Per Game)</summary>
-<span style="color: blue;">Description:</span> <span style="color: blue;">La moyenne de contres par match par le joueur.</span><br>
+<span style="color: blue;">Description:</span> <span style="color: blue;">La moyenne de contres par match du joueur.</span><br>
 </details>
 
 <details>
 <summary style="font-weight: bold;">TPG (Turnovers Per Game)</summary>
-<span style="color: blue;">Description:</span> <span style="color: blue;">La moyenne de pertes de balle par match par le joueur.</span><br>
+<span style="color: blue;">Description:</span> <span style="color: blue;">La moyenne de pertes de balle par match du joueur.</span><br>
 </details>
 
 <details>
