@@ -31,6 +31,8 @@ Les jouers étant rangé par ordre de scoring, on peut se demander quel est la r
 
 <div class="flourish-embed flourish-scatter" data-src="visualisation/16636350"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
+L'intérêt ici est de regarder de plus près les première place du classement des scoreurs en fonction des postes. On constate que les Guard sont les plus présent dans les 20 premières place. Il est à noté que le numéro 1 à pour poste  Pivot(center) et que le deuxième Pivot présent dans le classement n'est qu'à la 28ème place. 
+
 # Changement de perspective 
 Après avoir utilisé les données de chaques joueurs, il semblait intéressant de regrouper les data de tous les joueurs par équipe afin de pouvoir les comparer entre elles. 
 Pour ce faire j'ai donc réaliser un script python afin de moyenner les statistiques et de les regrouper par équipe. On récupère également le logo et les coordonnées de chaque équipe. 
@@ -52,7 +54,7 @@ team_averages[['logo image', 'LAT TEAM', 'LONG TEAM']] = data.groupby('TEAM', as
 team_averages.to_csv('NBA_moyenne.csv', index=False)
 
 ```
-Voici le résultat ; 
+Voici le résultat :  
 [Jeu de données par moyenne](NBA_moyenne.csv)
 
 # Quel est la moyenne d'age des joueurs par équipe
@@ -81,7 +83,7 @@ Afin de pouvoir comparer toutes les équipes dans chacune des catégorie statist
 
 Voici un glossaire permettant de pouvoir comprendre à quoi correspond chacune des statistiques disponible. 
 
-# Glossaire (NBA Stats Avancées)
+## Glossaire (NBA Stats Avancées)
 
 <details>
 <summary style="font-weight: bold;">GP (Games Played)</summary>
@@ -219,7 +221,7 @@ A l'aide d'une requete wikidata il m'a été possible d'afficher la photo des jo
 
 Certains joueurs ayant plusieurs nationalité appraraissent 2 fois. 
 
-### requête SPARQL
+## requête SPARQL
 
 ```sparql
 #defaultView:ImageGrid
