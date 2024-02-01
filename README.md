@@ -244,3 +244,16 @@ WHERE {
 
 ORDER BY DESC(?height)
 ```
+
+# Conclusion
+
+L'analyse des données statistiques des joueurs de la NBA pour la saison 2022-23 nous a permis de tirer plusieurs conclusions intéressantes. 
+Dans un premier temps, une analyse individuel des joueurs NBA en fonction de leurs lieu de naissance et de leurs classement selon le poste. 
+
+Dans un second temps, une approche différente a été adoptée en regroupant les données par équipe, moyennant les statistiques individuelles des joueurs. Cela a permis de comparer les performances des équipes dans différentes catégories. De plus, la création d'une carte montrant la moyenne d'âge des joueurs par équipe a apporté une perspective intéressante sur la composition des équipes.
+
+En se penchant sur la corrélation entre l'efficacité et la précision des tirs à trois points, il a été constaté que la plupart des équipes ne présentaient pas de corrélation significative entre ces deux aspects. Certains étaient précis sans être efficaces, et vice versa, soulignant la complexité de l'évaluation des performances qui sont extremement différente d'une équipe à l'autre.
+
+Enfin, une exploration des joueurs les plus grands de la NBA, mesurant plus de 2 mètres 15, a été effectuée à l'aide d'une requête Wikidata. Cette analyse a permis de visualiser les joueurs les plus grands ayant joué en NBA, offrant un aperçu de la diversité physique unique au sein de la ligue.
+
+L'analyse des données a fourni des perspectives riches sur la saison 2022-23 et la NBA de façon général, mettant en lumière des tendances géographiques, des performances individuelles, des comparaisons d'équipes et même des aspects physiques des joueurs. Ces informations peuvent être précieuses pour les amateurs de basketball, les analystes sportifs et les passionnés de données.
