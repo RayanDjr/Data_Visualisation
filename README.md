@@ -73,7 +73,7 @@ Les tirs à 3 points sont les plus difficile à mettre au Basket. Intéressont n
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/16637271"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-On constate qu'il n'y a pas de réel corrélation entre éfficacité et précision. Pour la plupart des équipe le point correspondant au % de réussite à 3pts ne se rapproche pas du nombre de 3 points reussis. Il ya même de grande difféence entre ces données. certaines équipe sont précise sans être efficace et d'autre au contraire sont efficace sans être précise, on soupçonne donc un grand volume de tirs tentés. Seul les joueurs de l'équipe des Portland Trailblaizers on une efficacité fidèle à leur précision.
+On constate qu'il n'y a pas de réel corrélation entre éfficacité et précision. Pour la plupart des équipe le point correspondant au % de réussite à 3pts ne se rapproche pas du nombre de 3 points reussis. Il ya même de grande difféence entre ces données. Quelques équipes sont précise sans être efficace mais la majorité sont au contraire efficace sans être forcément précise, on soupçonne donc un grand volume de tirs tentés. Seul les joueurs de l'équipe des Phoenix Suns on une efficacité fidèle à leur précision.
 
 # Qui sont les plus efficaces 
 
