@@ -69,11 +69,11 @@ Il est dommage que ces moyennes soient arrondie à autant de chiffre après la v
 
 # Corrélation entre éfficacité et précision de loin
 
-Les tirs à 3 points sont les plus difficile à mettre au Basket. Intéressont nous à la corrélation entre l'efficacité et la précision à l'aide des statistiques sur le nombre moyen de tire rentré par équipe et le pourcentage moyen de tir rentré afin de voir si les équipes les plus éfficace sont aussi les plus précise  
+Les tirs à 3 points sont les plus difficile à mettre au Basket. Intéressont nous à la corrélation entre l'efficacité et la précision à l'aide des statistiques sur le nombre moyen de tire rentré par joueur par équipe sur la saison et le pourcentage moyen de tir rentré par joueur par saison afin de voir si les équipes les plus éfficace sont aussi les plus précise  
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/16637271"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-
+On constate qu'il n'y a pas de réel corrélation entre éfficacité et précision. Pour la plupart des équipe le point correspondant au % de réussite à 3pts ne se rapproche pas du nombre de 3 points reussis. Il ya même de grande difféence entre ces données. certaines équipe sont précise sans être efficace et d'autre au contraire sont efficace sans être précise, on soupçonne donc un grand volume de tirs tentés. Seul les joueurs de l'équipe des Portland Trailblaizers on une efficacité fidèle à leur précision.
 
 # Qui sont les plus efficaces 
 
